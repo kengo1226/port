@@ -677,6 +677,12 @@ footer .copyright p {
         max-width: 90%;
     }
 
+    /* works */
+    #works .works-container {
+        width: 90%;
+        max-width: 90%;
+    }
+
     /* blog */
     #blog .blog-container {
         width: 90%;
@@ -693,5 +699,41 @@ footer .copyright p {
 スマホサイズ768px
 --------------------------*/
 @media screen and (max-width: 768px) {
-    
+    /* hero */
+    #hero {
+        height: 105vw;
+        padding-top: 0;
+        position: relative;
+    }
+
+    #about .about-container {
+        display: block;
+    }
+
+    #about h3 {
+        font-size: 7.2vw;
+    }
+
+    #about p {
+        margin-right: 0;
+        font-size: 3.44vw;
+    }
+
+    #about a {
+        margin-top: 8%;
+    }
+
+    /* contact */
+    #contact .contact-btns {
+        display: block;
+    }
+
+    #contact .contact-btns button {
+        margin: 0 auto 4%;
+    }
+
+    #contact .contact-btns button a {
+        width: 55vw;
+        font-size: 3.6vw;
+    }
 }
